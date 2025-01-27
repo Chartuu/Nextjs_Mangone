@@ -18,8 +18,8 @@ export default {
         },
       },
       fontFamily: {
-        customFont: ['"New York to Las Vegas"', 'serif'],
-        customFont2: ['"Lato"', 'sans-serif'],
+        customFont: ['"NewYorktoLasVegas"', 'serif'],
+        customFont2: ['"Lato-Regular"', 'sans-serif'],
       },
       
     },

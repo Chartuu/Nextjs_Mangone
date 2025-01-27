@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-    title: "Reitax3D",
+    title: "SPARK",
     description: "renders",
 };
 

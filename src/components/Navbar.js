@@ -1,7 +1,10 @@
 export default function Navbar() {
     return (
-        <nav className="bg-primary text-text p-4 flex justify-between">
-            <h1 className="text-5xl font-bold font-customFont">Reitax</h1>
+        <nav className="bg-primary text-text p-4  ">
+            <div className=" box-content md:box-border size-auto p-18">
+            <h1 className="text-7xl font-bold font-customFont flex justify-center items-center">SPARK</h1>
+            </div>
+            <div className="flex justify-center items-center">
             <ul className="flex gap-4 font-customFont2">
                 <li>
                     <a href="/" className="hover:text-accent">
@@ -19,6 +22,7 @@ export default function Navbar() {
                     </a>
                 </li>
             </ul>
+            </div>
         </nav>
     );
 }
